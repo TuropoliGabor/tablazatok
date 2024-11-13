@@ -2,10 +2,12 @@ table, td ,th{
     padding: 5px;
     text-align: center;
 }
-td, th{
+td{
     border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
 }
 th{
+    border-bottom: 1px solid gray;
     background-color: white;
 }
 tr:nth-child(even) {
@@ -15,8 +17,9 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
 background-color: gray;
 }
-  
 table{
-    width: 80%;
+    width: 50%;
+}
+html{
     margin: auto;
 }

@@ -5,3 +5,28 @@
 /*a menüpontok ne legyenek aláhúzva, ne legyen felsorolás, ha fölé viszem az egeret, akkor változzon a háttérszíne (li)*/
 
 /*Hozzd létre azokat az html-eketz, amiket a menüben leírtunk és készítsd el a mintának megfelelő táblázatot az article tagbe! Új táblázatformázás cs kell bele, de ugyanez az oldalalakítás*/
+
+a:hover{
+    color: red;
+}
+main{
+    display: grid;
+    grid-template-columns: 1 1fr 1fr;
+    grid-template-areas:
+        "h h h"
+        "n a as"
+        "f f f"
+}
+header{
+    grid-area: h;
+}
+footer{
+    grid-area: f;
+    text-align: center;
+    margin-top: 15px;
+}
+aside{
+    grid-area: as;
+    text-align: center;
+    margin-top: 20px;
+}
