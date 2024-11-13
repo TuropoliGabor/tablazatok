@@ -1,0 +1,25 @@
+table, td, th{
+    border: 1px solid gray;
+}
+table{
+    width: 80%;
+    margin: auto;
+}
+table>thead>tr{
+    border: 3px solid darkorange;
+}
+th{
+    background-color: brown;
+    color: beige;
+}
+tr:nth-child(odd){/*Minden masodik sor a tr tagek kozul*/
+    background-color: rgb(209, 204, 204);
+    color: red;
+}
+.osszevont{
+    background-color: greenyellow;
+}
+.responzivtablazat{
+    width: 100%;
+    overflow-x: scroll;
+}
